@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background:  #0B0B22;
+    font-family: sans-serif;
+}
+.container{
+    width: 1300px;
+    margin: 0 auto;
+}
+#header{
+    padding: 20px 0;
+}
+.header{
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;         
+}
+.header h1{
+    font-size: 24px;
+    color: white;
+    font-weight: 700;
+}   
+.ggg {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.ggg a{
+    color: #FFFFFFCC;
+    font-size: 16px;
+    font-weight: 400px;
+}
+.header button{
+    width: 112px;
+    height: 39px;
+    border-radius: 3px;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 500;
+    background:#FFFFFF1A;
+    border: none;
+    cursor: pointer;
+}
+
+#hero{
+    padding-top: 90px;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.hero h5{
+    color:#16FCD2;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    
+}
+.hero h1{
+    font-size: 36px;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.hero p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF99;
+    text-align: center;
+}
+.hero-btn{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        align-items: center;
+}
+.hero-btn button{
+    width: 195px;
+    height: 52px;
+    border-radius: 3px;
+    border:none;
+    cursor: pointer;
+}
+.btn-one{
+    width: 202px;
+    height: 52px;
+    padding: 15px, 55px, 15px, 55px;
+    border-radius: 3px;
+    background: #6016FC;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 15px;
+
+}
+.btn-two{
+    background: #FFFFFF1A;
+    color: #FFFFFF;
+}
+.blocks{
+    display: flex;
+    justify-content: center;
+gap: 70px;
+padding-top: 15px;
+align-items: center;
+}
+  
+.my-block {
+    width: 328px;
+    height: 276px;
+    border-radius: 5px;
+    background: #FFFFFF0D;
+    padding: 60px 0 0 60px;
+}
+.my-block h5{
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFFFFF;
+    padding: 15px 0;
+
+}
+.my-block p{
+    color:#FFFFFF99;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+}
+#footer{
+    padding-bottom: 50px;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+}
